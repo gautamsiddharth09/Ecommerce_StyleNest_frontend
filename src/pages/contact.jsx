@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../pageStyles/Contact.css"
 
-function contact() {
+function Contact() {
   return (
     <>
       <Navbar />
@@ -96,4 +96,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
