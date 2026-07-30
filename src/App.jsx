@@ -31,7 +31,7 @@ import OrdersList from './Admin/OrdersList';
 import UpdateOrder from './Admin/UpdateOrder';
 import ReviewsList from './Admin/ReviewsList';
 import About from './pages/About';
-import Contact from './pages/contact';
+import Contact from './pages/Contact';
 
 function App() {
   const {isAuthenticated,user}=useSelector(state=>state.user);
